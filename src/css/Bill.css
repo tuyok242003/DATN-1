@@ -1,0 +1,30 @@
+/* Bill.css */
+
+.container {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+}
+
+.img-thumbnail {
+  max-width: 50px;
+  height: auto;
+}
+
+.total-price {
+  margin-top: 20px;
+}
+
+.col-md-4 {
+  background-color: #f8f9fa; /* Light gray background for the form section */
+  padding: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .col-md-4 {
+    margin-top: 20px;
+  }
+}
